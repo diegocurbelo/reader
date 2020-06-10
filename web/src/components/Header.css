@@ -1,0 +1,133 @@
+.Header {
+  z-index: 1;
+  border-radius: 0;
+  margin-bottom: 0;
+  min-height: 45px;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0,0,0,.15);
+}
+
+.Header .navbar-header button.close {
+  font-size: 32px;
+  color: lightslategray !important;
+  padding: 5px 10px 7px 7px;
+  margin: 0;
+  opacity: unset;
+  font-weight: normal;
+}
+
+.Header .navbar-header .dropdown-menu {
+  font-size: 16px;
+}
+
+.Header .navbar-header {
+  margin: 0;
+  width: 100%;
+  height: 42px;
+}
+.Header .page-header {
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.Header .page-header h1 {
+  font-size: 20px;
+  text-overflow: ellipsis;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  line-height: 42px;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .Header .navbar-header,
+  .Header .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+    float: none;
+  }
+}
+
+.Header .container {
+  width: 100%;
+  padding: 0;
+}
+
+.Header .sidebar-toggle {
+  padding: 14px 15px 8px 15px;
+  float: left;
+}
+
+/* SIDEBAR TOGGLE BUTTON */
+.Header .sidebar-toggle .sidebar-toggle-icon {
+  float: left;
+  background-image: url(menu.png);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 20px;
+  background-position: 0 1px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+
+  .Header .sidebar-toggle .sidebar-toggle-icon {
+    background-image: url(menu@2x.png);
+    background-size: 95%;
+  }
+}
+
+/* FEED OPTIONS BUTTON */
+.Header .dropdown button {
+  border: none;
+  border-radius: 0;
+  font-size: 21px;
+  background-color: white !important;
+  color: lightslategray !important;
+  padding: 9px 7px 0 10px;
+  box-shadow: none;
+}
+
+/* FEED TITLE */
+.Header .navbar-header {
+  margin: 0;
+  width: 100%;
+}
+
+.Header .page-header {
+  width: calc(100% - 93px);
+  white-space: nowrap;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.Header .page-header h1 {
+  font-size: 20px;
+  text-overflow: ellipsis;
+  overflow-y: hidden;
+  margin: 0;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .Header .sidebar-toggle {
+    display: none;
+  }
+  .Header .page-header {
+    width: calc(100% - 40px);
+    padding-left: 40px;
+  }
+}
+
+.Header .read-progress {
+  height: 3px;
+  margin: 0;
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}

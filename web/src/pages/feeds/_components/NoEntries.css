@@ -1,0 +1,19 @@
+.NoEntries {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.NoEntries > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 800px) {
+  .NoEntries {
+    margin: -10px;
+  }
+}

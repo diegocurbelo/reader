@@ -1,0 +1,149 @@
+* {
+  outline: none !important;
+}
+
+body {
+  position: fixed;
+  overflow: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+a,
+a:hover,
+a:focus {
+  color: #3b8dbd;
+}
+
+/* GLobal Bootstrap Customization */
+.container {
+  width: auto;
+}
+
+.navbar {
+  border: none;
+}
+
+.navbar-toggle {
+  display: block;
+}
+.navbar-collapse.collapse {
+  display: none !important;
+}
+.navbar-nav {
+  float: none;
+}
+.navbar-nav > li {
+  float: none;
+}
+.collapse.in {
+  display:block !important;
+}
+
+.dropdown-menu .divider {
+  margin: 9.5px 20px;
+}
+
+.list-group {
+  margin: 0;
+}
+
+/* Buttons */
+.btn {
+  color: #6B7682;
+  background-color: white;
+  padding: 8px 14px 9px;
+  font-size: 16px;
+  border: 1px solid #C7CACD;
+  box-shadow: inset 0 -3px rgba(0,0,0,.25);
+}
+.btn:hover {
+  color: #007AB8;
+  background-color: white;
+  border: 1px solid #C7CACD;
+}
+
+.btn.btn-primary {
+  color: white;
+  background-color: #007AB8;
+  border: none;
+  padding: 8px 14px 9px;
+}
+
+.btn.btn-danger {
+  color: white;
+  background-color: #eb4d5c;
+  border: none;
+  padding: 8px 14px 9px;
+}
+
+.btn.btn-success {
+  color: white;
+  background-color: #2ab27b;
+  border: none;
+  padding: 8px 14px 9px;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:hover,
+.btn.btn-danger:focus,
+.btn.btn-danger:hover,
+.btn.btn-success:focus,
+.btn.btn-success:hover {
+  /*box-shadow: inset 0 -3px rgba(0,0,0,.25);*/
+  box-shadow: none;
+}
+
+.btn.disabled,
+.btn[disabled] {
+  color: #C0C0C0 !important;
+  background-color: #C0C0C0 !important;
+  border: 1px solid #C7CACD !important;
+}
+
+.btn.disabled .Loading svg,
+.btn[disabled] .Loading svg {
+  height: 22px;
+  width: 22px;
+}
+
+.btn.disabled .Loading svg path,
+.btn[disabled] .Loading svg path {
+  stroke: #2c3e50;
+}
+
+.btn-group.open .dropdown-toggle {
+  box-shadow: none;
+}
+
+/* Modal */
+
+.modal .modal-header {
+  padding: 20px 25px;
+  border: none;
+}
+
+.modal .modal-header h4 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.modal .modal-header .close {
+  font-size: 30px;
+}
+.modal .modal-body {
+  padding: 20px 25px;
+  font-size: 16px;
+}
+
+.modal .modal-footer {
+  padding: 20px 30px;
+  border: none;
+}
+.modal .modal-footer .btn+.btn {
+  margin-left: 10px;
+}

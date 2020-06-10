@@ -1,0 +1,83 @@
+.Main {
+  background-color: rgba(0,0,0,.1);
+  overflow-y: hidden !important;
+}
+.Main > div {
+  height: 100%;
+}
+
+.Main .Scrollable {
+  height: calc(100% - 50px);
+  overflow-y: auto;
+}
+
+/* Cards */
+.Main .card {
+  background-color: white;
+  padding: 15px 15px;
+}
+
+.Main .card.unread {
+  border-left: 3px solid #3b8dbd;
+}
+
+.Main .card.read {
+  border-left: 3px solid lightslategrey;
+}
+
+.Main .card.media {
+  margin: 5px;
+  padding-top: 9px;
+}
+
+.Main .card label {
+  font-weight: normal;
+}
+
+.Main .card input {
+  border: 1px solid #C5C5C5;
+  padding: 10px 13px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.Main .card .btn-group {
+  width: 100%;
+}
+
+.Main .card .btn-group button {
+  float: right;
+}
+
+.Main .card .form-control:focus {
+  border-color: #007AB8;
+}
+
+/* Centered box */
+.Main .centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Override for fixed sidebar and modal */
+
+@media (min-width: 800px) {
+  .Main .Scrollable > div > div:first-of-type {
+    padding: 10px 10px 10px 10px;
+  }
+  .Main .card {
+    padding: 10px;
+  }
+  .Main .card.media {
+    margin: 0 0 10px 0;
+  }
+  .Main .centered {
+    left: calc(50% + 150px);
+  }
+  .modal {
+    padding-left: 300px;
+  }
+}

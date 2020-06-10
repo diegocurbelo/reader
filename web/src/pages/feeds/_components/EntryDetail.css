@@ -1,0 +1,61 @@
+.EntryDetail .media-body .media-heading {
+  margin-bottom: 7px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.EntryDetail .media-body .media-heading a {
+  font-size: 19px;
+}
+
+.EntryDetail .media-body .media-heading p {
+  font-size: 12px;
+  font-weight: normal;
+  color: lightslategrey;
+  margin: 4px 0 0 1px;
+}
+
+.EntryDetail .media-body .media-content h1 {
+  font-size: 18px;
+}
+
+.EntryDetail .media-body .media-content h2 {
+  font-size: 17px;
+}
+
+.EntryDetail .media-body .media-content h3 {
+  font-size: 16px;
+}
+
+.EntryDetail .media-body .media-content h4,
+.EntryDetail .media-body .media-content h5,
+.EntryDetail .media-body .media-content h6 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.EntryDetail .media-body .media-content blockquote {
+  font-size: 15px;
+}
+
+.EntryDetail .media-body audio,
+.EntryDetail .media-body canvas,
+.EntryDetail .media-body iframe,
+.EntryDetail .media-body img,
+.EntryDetail .media-body pre,
+.EntryDetail .media-body svg,
+.EntryDetail .media-body video {
+  max-width: 100% !important;
+  display: block;
+  margin: 5px 0;
+}
+
+.EntryDetail .media-body code {
+  font-size: 13px;
+  white-space: pre-wrap;
+}
+
+.EntryDetail .media-body pre {
+  font-size: 12px;
+  white-space: pre-wrap;
+}

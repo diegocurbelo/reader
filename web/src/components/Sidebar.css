@@ -1,0 +1,132 @@
+.Sidebar {
+  width: 300px;
+  height: 100%;
+}
+
+.Sidebar .navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  min-height: 50px;
+  background-color: #3C4B5B;
+}
+
+.Sidebar .btn {
+  box-shadow: none;
+}
+
+.Sidebar .navbar .navbar-header .navbar-brand {
+  width: 175px;
+  height: 33px;
+  margin: 7px 0 0 15px;
+  padding: 0;
+}
+
+.Sidebar .navbar .navbar-header .dropdown {
+  float: right;
+  margin-right: 5px;
+}
+
+.Sidebar .navbar .navbar-header .dropdown button {
+  border: none;
+  border-radius: 0;
+  font-size: 21px;
+  background-color: transparent !important;
+  color: white !important;
+  padding: 11px 9px 0 10px;
+}
+
+.Sidebar .navbar .navbar-header .dropdown .dropdown-menu {
+  right: 3px;
+  font-size: 16px;
+}
+
+.Sidebar .navbar .navbar-header .dropdown .user-info {
+  margin: 3px 0 20px 0;
+}
+
+.Sidebar .navbar .navbar-header .dropdown .user-info img {
+  height: 48px;
+  position: absolute;
+  border-radius: 15%;
+  top: 15px;
+  left: 20px;
+}
+
+.Sidebar .navbar .navbar-header .dropdown .user-info-title {
+  padding: 12px 20px 0 78px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #6B7682;
+  font-weight: 400;
+  letter-spacing: .5px;
+  font-size: 12px;
+}
+
+.Sidebar .navbar .navbar-header .dropdown .user-info-name {
+  padding: 0 20px 0 77px;
+  font-size: 18px;
+  white-space: nowrap;
+  display: block;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  max-width: 265px;
+}
+
+@media (min-width: 800px) {
+  .Sidebar .navbar-header,
+  .Sidebar .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+    float: none;
+  }
+}
+
+
+.Sidebar .Scrollable {
+  height: calc(100% - 50px);
+  overflow-y: auto;
+}
+
+
+.Sidebar .Scrollable ul {
+  padding: 5px 0 0 0;
+  font-size: 16px;
+  list-style: none;
+}
+
+.Sidebar .Scrollable ul li a {
+  display: block;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+.Sidebar .Scrollable ul li a:hover {
+  background-color: #2c3e50;
+}
+
+.Sidebar .Scrollable ul li a.active {
+  border-left: 4px solid #3b8dbd;
+  background-color: #2c3e50;
+  padding-left: 11px;
+}
+
+.Sidebar .Scrollable ul li a span.feed-title {
+  display: block;
+  color: white;
+  padding: 4px 0;
+  line-height: 26px;
+  text-decoration: none;
+  padding: 4px 0 4px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Sidebar .Scrollable ul li a .badge {
+  float: right;
+  margin: 9px 5px 0 0;
+}
+
+.Sidebar .Scrollable ul li a.active .feed-title {
+  color: white;
+}

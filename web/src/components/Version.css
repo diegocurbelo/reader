@@ -1,0 +1,8 @@
+.Version {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px 10px;
+  font-family: Consolas,Menlo,"Liberation Mono",Courier,monospace;
+  color: #C0C0C0;
+}

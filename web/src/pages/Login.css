@@ -1,0 +1,77 @@
+.Login {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.Login .centered {
+  position: fixed;
+  width: 267px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Login .login-form {
+  border-top: 1px solid #ccc;
+  margin-top: 50px;
+}
+.Login .login-form .login-form-title {
+  margin-top: -13px;
+  text-align: center;
+}
+.Login .login-form .login-form-title span {
+  padding: 0 7px;
+  color: #7b8a8b;
+  background-color: white;
+  font-size: 22px;
+  line-height: 20px;
+}
+
+.Login .social-buttons {
+  margin-top: 40px;
+}
+.Login .social-buttons a {
+  display: block;
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding: 8px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-family: 'Lucida Grande', Tahoma, Geneva, Verdana, Helvetica, Arial, sans-serif;
+}
+.Login .social-buttons a:last-child {
+  margin-bottom: 0;
+}
+
+.Login .social-buttons a img {
+  position: absolute;
+}
+
+.Login .social-buttons a span {
+  font-size: 20px;
+  white-space: nowrap;
+  padding-left: 38px;
+}
+
+.Login .social-buttons a.button-facebook {
+  box-shadow: inset 0 -3px rgba(0,0,0,.25);
+  background: #3b5998;
+}
+.Login .social-buttons a.button-facebook:hover {
+  /* box-shadow: inset 0 -3px rgba(0,0,0,.25); */
+}
+
+.Login .social-buttons a.button-google {
+  box-shadow: inset 0 -3px rgba(0,0,0,.25);
+  background-color: #d7482b;
+}
+.Login .social-buttons a.button-google img {
+  margin-left: -3px;
+  margin-top: -3px;
+}
+.Login .social-buttons a.button-google:hover {
+  /* box-shadow: inset 0 -3px rgba(0,0,0,.25); */
+}
